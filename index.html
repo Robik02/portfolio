@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/letter-r.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Róbert Lehotay | Coming soon</title>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script type="module" src="/src/main.tsx"></script>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import {initializeApp} from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+    import {getAnalytics} from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyA6AygWg27-8ZWWGPg9Cgjdh5-xE2GYu44",
+        authDomain: "robert-lehotay.firebaseapp.com",
+        projectId: "robert-lehotay",
+        storageBucket: "robert-lehotay.appspot.com",
+        messagingSenderId: "642142795495",
+        appId: "1:642142795495:web:cc5a0c9defc90e206f9442",
+        measurementId: "G-WEJCLW1WT4"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
+
+</body>
+</html>
